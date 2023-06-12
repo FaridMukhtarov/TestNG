@@ -1,0 +1,16 @@
+<suite name="Annotations">
+    <test name="Run group Annotations">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="DemoTesNG.ConfigurationAnnotations_1_DataPickers"/>
+            <methods>
+                <exclude name="test1_BootstrapDataPicker"/>
+            </methods>
+            <class name="DemoTesNG.ConfigurationAnnotations_1_ListBox"/>
+        </classes>
+    </test>
+</suite>

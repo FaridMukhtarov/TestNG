@@ -1,0 +1,10 @@
+<suite name="Loan Department">
+
+    <test name="Personal Loan">
+       <packages>
+           <package name = "DemoTestNG"/>
+       </packages>
+    </test>
+
+
+</suite>

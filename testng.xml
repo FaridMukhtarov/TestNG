@@ -1,0 +1,29 @@
+<suite name="Loan Department">
+
+    <test name="Personal Loan">
+        <classes>
+            <class name="DemoTestNG.Day_1"/>
+            <methods>
+                <include name="test_01"/>
+            </methods>
+            <class name="DemoTestNG.Day_2"/>
+        </classes>
+    </test>
+
+    <test name="Car Loan">
+        <classes>
+            <class name="DemoTestNG.CarLoan"/>
+            <methods>
+                <exclude name ="mobilLoginCarLoan"/>
+            </methods>
+        </classes>
+    </test>
+
+    <test name="Home Loan">
+        <classes>
+            <class name="DemoTestNG.HomeLoan"/>
+        </classes>
+    </test>
+
+
+</suite>
